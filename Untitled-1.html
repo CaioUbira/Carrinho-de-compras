@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de Compras</title>
+  <link rel="stylesheet" href="body.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Carrinho de compras</h1>
+  </header>
+
+  <main class="container">
+    <section class="cart">
+      <h2>Seu Carrinho</h2>
+
+      <div class="cart-item">
+        <img src="https://via.placeholder.com/100" alt="Produto">
+        <div class="item-info">
+          <h3>Nome do produto</h3>
+          <p>Categoria</p>
+          <p class="price">R$ 120</p>
+        </div>
+        <div class="item-quantity">
+          <button class="btn-qty">-</button>
+          <span>2</span>
+          <button class="btn-qty">+</button>
+        </div>
+        <p class="item-total">R$ 240</p>
+        <button class="btn-remove">×</button>
+      </div>
+
+      <div class="cart-item">
+        <img src="https://via.placeholder.com/100" alt="Produto">
+        <div class="item-info">
+          <h3>Nome do produto</h3>
+          <p>Categoria</p>
+          <p class="price">R$ 120</p>
+        </div>
+        <div class="item-quantity">
+          <button class="btn-qty">-</button>
+          <span>2</span>
+          <button class="btn-qty">+</button>
+        </div>
+        <p class="item-total">R$ 240</p>
+        <button class="btn-remove">×</button>
+      </div>
+    </section>
+
+    <aside class="summary">
+      <h3>Resumo da compra</h3>
+      <div class="summary-line">
+        <span>Sub-total</span>
+        <span>R$ 480</span>
+      </div>
+      <div class="summary-line">
+        <span>Frete</span>
+        <span>Gratuito</span>
+      </div>
+      <a href="#" class="discount-link">Adicionar cupom de desconto →</a>
+      <div class="summary-total">
+        <span>Total</span>
+        <span>R$ 480</span>
+      </div>
+      <button class="btn-finish">FINALIZAR COMPRA</button>
+    </aside>
+  </main>
+
+  <!-- Script no final do body -->
+  <script src="script.js"></script>
+</body>
+
+</html>
